@@ -1,0 +1,12 @@
+.container_select {
+  display: flex;
+  gap: 20px;
+}
+
+.container_select .title {
+  margin: 10px 0 0 10px;
+}
+
+.select {
+  width: 200px;
+}

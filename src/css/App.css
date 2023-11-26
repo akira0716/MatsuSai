@@ -1,0 +1,62 @@
+.records {
+  margin: 20px 20px 20px 0;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 500px;
+  height: calc(100vh - 140px);
+  overflow: scroll;
+}
+
+.records::-webkit-scrollbar {
+  display: none;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.area01 {
+  margin: 20px 0 20px 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  height: calc(100vh - 140px);
+  flex: 1;
+  position: relative;
+}
+
+.area01_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area01_header_currentMonth {
+  font-size: 40px;
+  width: 200px;
+  height: 80px;
+  border: 1px solid #000;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #80a5ff;
+  margin: 30px;
+}
+
+.area01_header_content {
+  flex: 1;
+}
+
+.area01_header_content .title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.area01_header_content .amount {
+  font-size: 40px;
+  text-align: center;
+}

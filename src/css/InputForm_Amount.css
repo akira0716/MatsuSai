@@ -1,0 +1,18 @@
+.InputForm_Amount_container {
+  display: flex;
+  gap: 20px;
+}
+
+.InputForm_Amount {
+  width: 200px;
+  display: flex;
+  text-align: right;
+}
+
+.InputForm_Amount_container .title {
+  margin: 10px 0 0 10px;
+}
+
+.InputForm_Amount_container .union {
+  margin-top: 15px;
+}

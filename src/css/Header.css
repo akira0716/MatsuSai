@@ -1,0 +1,26 @@
+.header {
+  background: #1982dc;
+  padding: 20px 20px;
+  height: 100px;
+  position: relative;
+}
+
+.header .title {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.signIn {
+  position: absolute;
+  top: 30px;
+  right: 200px;
+}
+
+.create {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}

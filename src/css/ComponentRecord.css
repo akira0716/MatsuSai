@@ -1,0 +1,18 @@
+.normal {
+  width: 440px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  border-color: #000;
+  border-width: 2px;
+}
+
+.normal .amount {
+  margin-inline: 20px;
+  width: 55%;
+  display: inline-block;
+}

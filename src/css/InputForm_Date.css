@@ -1,0 +1,15 @@
+.InputForm_Date_container {
+  display: flex;
+  gap: 20px;
+}
+
+.InputForm_Date_container .title {
+  margin: 10px 0 0 10px;
+}
+
+.InputForm_Date {
+  width: 200px;
+  display: flex;
+  text-align: right;
+  font-size: 24px;
+}
