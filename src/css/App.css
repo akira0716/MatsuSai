@@ -1,7 +1,11 @@
+body {
+  background-color: #daf5ff;
+}
+
 .records {
   margin: 20px 20px 20px 0;
   padding: 10px;
-  border: 1px solid #000;
+  box-shadow: 0px 0px 5px 1px #777777;
   border-radius: 10px;
   width: 500px;
   height: calc(100vh - 140px);
@@ -21,42 +25,45 @@
 .area01 {
   margin: 20px 0 20px 20px;
   padding: 10px;
-  border: 1px solid #000;
+  box-shadow: 0px 0px 5px 1px #777777;
   border-radius: 10px;
   height: calc(100vh - 140px);
   flex: 1;
   position: relative;
 }
 
-.area01_header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .area01_header_currentMonth {
-  font-size: 40px;
-  width: 200px;
-  height: 80px;
-  border: 1px solid #000;
-  border-radius: 40px;
+  font-size: 56px;
+  color: #fff;
+  width: 300px;
+  height: 100px;
+  box-shadow: 0px 0px 5px 1px #777777;
+  border-radius: 0 50px 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #80a5ff;
+  background-color: #50b9df;
   margin: 30px;
 }
 
 .area01_header_content {
-  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 56px;
 }
 
-.area01_header_content .title {
+/* .area01_header_content .title {
   text-align: center;
-  font-size: 40px;
+  font-size: 56px;
 }
 
 .area01_header_content .amount {
-  font-size: 40px;
+  font-size: 56px;
   text-align: center;
+} */
+
+h4 {
+  margin: 0;
 }

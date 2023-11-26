@@ -9,10 +9,11 @@
   text-align: right;
 }
 
-.InputForm_Amount_container .title {
+/* .InputForm_Amount_container .title {
   margin: 10px 0 0 10px;
-}
+} */
 
 .InputForm_Amount_container .union {
-  margin-top: 15px;
+  font-size: 24px;
+  margin-top: 12px;
 }

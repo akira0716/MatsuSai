@@ -31,14 +31,14 @@ const Header = (props) => {
 
   return (
     <header className="header">
-      <h1 className="title">食費管理アプリ</h1>
+      <h1 className="app-title">食費管理アプリ</h1>
       <div className="signIn">
         {userId === 0 ? (
-          <Button variant="info" onClick={handleShow}>
+          <Button variant="primary" onClick={handleShow}>
             ログイン
           </Button>
         ) : (
-          <Button variant="info" onClick={onClickLogout}>
+          <Button variant="primary" onClick={onClickLogout}>
             ログアウト
           </Button>
         )}

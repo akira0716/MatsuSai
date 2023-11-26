@@ -10,7 +10,7 @@ const InputFormAmount = (props) => {
     <div className="InputForm_Amount_container">
       <h4 className="title">金額</h4>
       <Form.Control
-        className="InputForm_Amount"
+        className="inputform"
         size="lg"
         type="tel"
         placeholder="金額"

@@ -101,7 +101,6 @@ const InputForm = (props) => {
           options={options}
           value={form.classification}
         />
-        <br />
         <InputFormAmount onChange={handleInputChange} value={form.amount} />
       </div>
       <div className="buttonArea">

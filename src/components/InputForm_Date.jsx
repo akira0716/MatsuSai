@@ -13,14 +13,13 @@ const InputFormDate = (props) => {
       <div className="InputForm_Date_container">
         <h4 className="title">日付</h4>
         <Form.Control
-          className="InputForm_Date"
+          className="inputform"
           type="date"
           onChange={onChange}
           value={value}
           name="record_date"
         />
       </div>
-      <br />
     </>
   );
 };

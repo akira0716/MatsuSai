@@ -11,7 +11,7 @@ const ComponentSelect = (props) => {
       <div className="container_select">
         <h4 className="title">分類</h4>
         <Form.Select
-          className="select"
+          className="inputform"
           size="lg"
           onChange={onChange}
           name="classification"

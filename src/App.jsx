@@ -61,6 +61,22 @@ const App = () => {
     }
   };
 
+  // return (
+  //   <>
+  //     <Header userId={userId} setUserId={setUserId} />
+  //     <div className="container display">
+  //       <div className="records">
+  //         <MyAccordion
+  //           records={records}
+  //           onClickEdit={onClickEdit}
+  //           onClickDelete={onClickDelete}
+  //           targetRecordId={targetRecord.id}
+  //         />
+  //       </div>
+  //     </div>
+  //   </>
+  // );
+
   return (
     <>
       <Header userId={userId} setUserId={setUserId} />
@@ -71,9 +87,8 @@ const App = () => {
               {new Date().getMonth() + 1}月
             </h2>
             <div className="area01_header_content">
-              <br />
-              <h2 className="title">今月の合計</h2>
-              <p className="amount">{Number(sumAmount).toLocaleString()}円</p>
+              <p>今月の合計：</p>
+              <p>{Number(sumAmount).toLocaleString()}円</p>
             </div>
           </div>
           <br />
